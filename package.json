@@ -1,0 +1,21 @@
+{
+  "name": "@toxicwind/phone-sentinel",
+  "version": "1.0.0",
+  "description": "Zero-touch, network-reactive ADB sentinel for Pixel 9 Pro XL on LAN/Tailscale",
+  "main": "src/index.ts",
+  "bin": {
+    "phone-sentinel": "src/index.ts"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "bun run src/index.ts",
+    "test": "bun test"
+  },
+  "dependencies": {
+    "@devicefarmer/adbkit": "^3.3.9"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/node": "^26.6.5"
+  }
+}
