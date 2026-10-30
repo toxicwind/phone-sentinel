@@ -15,6 +15,8 @@
     "@devicefarmer/adbkit": "^3.3.9"
   },
   "devDependencies": {
+    "@types/bun": "^1.4.4",
+    "bun-types": "^1.4.4",
     "@types/bun": "latest",
     "@types/node": "^26.6.5"
   }
