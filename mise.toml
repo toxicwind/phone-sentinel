@@ -1,5 +1,5 @@
 [tools]
-bun = "1.4.3"
+# bun inherited from pens-root mise.toml (1.4.4)
 node = "22"
 
 [env]
